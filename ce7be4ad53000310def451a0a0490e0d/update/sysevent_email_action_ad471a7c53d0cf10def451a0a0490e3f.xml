@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Returnflow Task Creation" name="Returnflow Task Creation">ccd8747453188f10def451a0a0490e20</category>
+        <collection>x_1974680_return_0_returnflow_task</collection>
+        <condition table="x_1974680_return_0_returnflow_task">state=1^EQ<item display_value="Open" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digest_type>single</digest_type>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hello ${assignment_group},</p>
+<p>A new task has been created and assigned to you for completion. Please review the details below and take the necessary action.</p>
+<p>Task Number: ${number}</p>
+<p>Short description: ${short_description}</p>
+<p>Kindly ensure this task is completed within the stipulated timeframe. If you have any questions or require further clarification, please do not hesitate to reach out to the requestor or your team lead.</p>
+<p>Thank you for your prompt attention to this matter.</p>
+<p>Best regards,<br>ReturnFlow</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>RetrunFlow Task Created</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assignment_group</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>New Task Created - ${number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>fiyinfoluwa.ade</sys_created_by>
+        <sys_created_on>2026-04-14 18:35:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad471a7c53d0cf10def451a0a0490e3f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>RetrunFlow Task Created</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>sysevent_email_action_ad471a7c53d0cf10def451a0a0490e3f</sys_update_name>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-21 08:47:45</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

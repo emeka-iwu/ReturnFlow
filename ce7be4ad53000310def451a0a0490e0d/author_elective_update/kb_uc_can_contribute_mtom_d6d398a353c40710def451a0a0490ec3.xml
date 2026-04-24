@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_contribute_mtom">
+    <kb_uc_can_contribute_mtom action="DELETE">
+        <kb_knowledge_base display_value="ReturnFlow">5793d0a353c40710def451a0a0490e7c</kb_knowledge_base>
+        <sys_class_name>kb_uc_can_contribute_mtom</sys_class_name>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-10 11:37:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d6d398a353c40710def451a0a0490ec3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ReturnFlow.Has atleast one role apart from snc_internal KB</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>kb_uc_can_contribute_mtom_d6d398a353c40710def451a0a0490ec3</sys_update_name>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-10 11:37:45</sys_updated_on>
+        <user_criteria display_value="Has atleast one role apart from snc_internal KB">f9397919f79d52507787d3e543bfd6cd</user_criteria>
+    </kb_uc_can_contribute_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</application>
+        <file_path/>
+        <instance_id>68dccdac1bf2f1501024eb9b2d4bcb98</instance_id>
+        <instance_name>dev224953</instance_name>
+        <name>kb_uc_can_contribute_mtom_d6d398a353c40710def451a0a0490ec3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_contribute_mtom"><kb_uc_can_contribute_mtom action="INSERT_OR_UPDATE"><kb_knowledge_base display_value="ReturnFlow">5793d0a353c40710def451a0a0490e7c</kb_knowledge_base><sys_class_name>kb_uc_can_contribute_mtom</sys_class_name><sys_created_by>gauri.phapale</sys_created_by><sys_created_on>2026-04-10 11:37:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d6d398a353c40710def451a0a0490ec3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ReturnFlow.Has atleast one role apart from snc_internal KB</sys_name><sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package><sys_policy/><sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope><sys_update_name>kb_uc_can_contribute_mtom_d6d398a353c40710def451a0a0490ec3</sys_update_name><sys_updated_by>gauri.phapale</sys_updated_by><sys_updated_on>2026-04-10 11:37:45</sys_updated_on><user_criteria display_value="Has atleast one role apart from snc_internal KB">f9397919f79d52507787d3e543bfd6cd</user_criteria></kb_uc_can_contribute_mtom></record_update>]]></payload>
+        <payload_hash>203559518</payload_hash>
+        <record_name>ReturnFlow.Has atleast one role apart from snc_internal KB</record_name>
+        <reverted_from/>
+        <source>8a7be4ad53000310def451a0a0490e3c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-10 11:37:46</sys_created_on>
+        <sys_id>e2d398a353c40710def451a0a0490ec9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d772f0f100000001</sys_recorded_at>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-10 11:37:46</sys_updated_on>
+        <type>Who Can Contribute To Knowledge Base</type>
+        <update_guid>a2d398a37dc40710891dc25bcbcf36c8</update_guid>
+        <update_guid_history>a2d398a37dc40710891dc25bcbcf36c8:203559518</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ReturnFlow.Has atleast one role apart from snc_internal KB">16e7942f53c40710def451a0a0490e1e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-10 11:55:30</sys_created_on>
+        <sys_db_object display_value="" name="kb_uc_can_contribute_mtom">kb_uc_can_contribute_mtom</sys_db_object>
+        <sys_id>718b8e7d0945483cbd1ffe9d6615f529</sys_id>
+        <sys_metadata>d6d398a353c40710def451a0a0490ec3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ReturnFlow.Has atleast one role apart from snc_internal KB</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_scope_delete display_value="">a9abfa1244bf4238bc9bb1d14e0d0d10</sys_scope_delete>
+        <sys_update_name>kb_uc_can_contribute_mtom_d6d398a353c40710def451a0a0490ec3</sys_update_name>
+        <sys_update_version display_value="kb_uc_can_contribute_mtom_d6d398a353c40710def451a0a0490ec3">e2d398a353c40710def451a0a0490ec9</sys_update_version>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-10 11:55:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

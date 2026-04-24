@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>order_number</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-21 09:37:49</sys_created_on>
+        <sys_id>e9d1644b53dccb10def451a0a0490ed2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>order_number</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e9d1644b53dccb10def451a0a0490ed2</sys_update_name>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-21 09:37:49</sys_updated_on>
+        <table>x_1974680_return_0_order_return</table>
+        <ui_policy display_value="Hides return number on the form">1c418de953c00310def451a0a0490e0f</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=e9d1644b53dccb10def451a0a0490ed2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</application>
+        <file_path/>
+        <instance_id>68dccdac1bf2f1501024eb9b2d4bcb98</instance_id>
+        <instance_name>dev224953</instance_name>
+        <name>sys_ui_policy_action_e9d1644b53dccb10def451a0a0490ed2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>false</disabled><field>order_number</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>gauri.phapale</sys_created_by><sys_created_on>2026-04-21 09:37:49</sys_created_on><sys_id>e9d1644b53dccb10def451a0a0490ed2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>order_number</sys_name><sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package><sys_policy/><sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope><sys_update_name>sys_ui_policy_action_e9d1644b53dccb10def451a0a0490ed2</sys_update_name><sys_updated_by>gauri.phapale</sys_updated_by><sys_updated_on>2026-04-21 09:37:49</sys_updated_on><table>x_1974680_return_0_order_return</table><ui_policy display_value="Hides return number on the form">1c418de953c00310def451a0a0490e0f</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=e9d1644b53dccb10def451a0a0490ed2"/></record_update>]]></payload>
+        <payload_hash>-163811079</payload_hash>
+        <record_name>order_number</record_name>
+        <reverted_from/>
+        <source>8a7be4ad53000310def451a0a0490e3c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-21 09:37:49</sys_created_on>
+        <sys_id>f0e1e44b53dccb10def451a0a0490e2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19daf67329b0000001</sys_recorded_at>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-21 09:37:49</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>b0e1e44b15dccb1099b9da09b34ceb29</update_guid>
+        <update_guid_history>b0e1e44b15dccb1099b9da09b34ceb29:-163811079</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-21 09:49:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>aa30f02d186e4701a87e1fc61cff87a9</sys_id>
+        <sys_metadata>e9d1644b53dccb10def451a0a0490ed2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>order_number</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_parent display_value="Hides return number on the form">1c418de953c00310def451a0a0490e0f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_scope_delete display_value="">a9abfa1244bf4238bc9bb1d14e0d0d10</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_e9d1644b53dccb10def451a0a0490ed2</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_e9d1644b53dccb10def451a0a0490ed2">f0e1e44b53dccb10def451a0a0490e2a</sys_update_version>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-21 09:49:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

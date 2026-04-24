@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Item Cost Population from Order Item to Order Return</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>item_cost_population</internal_name>
+        <label_cache>null</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Item Cost Population</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>michael.ayeni</sys_created_by>
+        <sys_created_on>2026-04-16 18:18:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cc29aced53500310def451a0a0490e41</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Item Cost Population</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>sys_hub_flow_cc29aced53500310def451a0a0490e41</sys_update_name>
+        <sys_updated_by>michael.ayeni</sys_updated_by>
+        <sys_updated_on>2026-04-16 18:34:07</sys_updated_on>
+        <type>subflow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>e5aca82953900310def451a0a0490e8c</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=cc29aced53500310def451a0a0490e41"/>
+    <sys_variable_value action="delete_multiple" query="document_key=cc29aced53500310def451a0a0490e41"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_cc29aced53500310def451a0a0490e41^id=cc29aced53500310def451a0a0490e41"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=cc29aced53500310def451a0a0490e41"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=cc29aced53500310def451a0a0490e41^sys_idNOT IN8829aced53500310def451a0a0490e42"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>cc29aced53500310def451a0a0490e41</id>
+        <name>Item Cost Population</name>
+        <sys_created_by>michael.ayeni</sys_created_by>
+        <sys_created_on>2026-04-16 18:18:33</sys_created_on>
+        <sys_id>8829aced53500310def451a0a0490e42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>michael.ayeni</sys_updated_by>
+        <sys_updated_on>2026-04-16 18:18:33</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8829aced53500310def451a0a0490e42"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=cc29aced53500310def451a0a0490e41^sys_idNOT INeed96ca153900310def451a0a0490e49"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=float,uiUniqueId=c946515a-dcaa-4110-8e28-91879e417c24</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>item_cost</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">float</internal_type>
+        <label>Item Cost</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Item Cost Population">cc29aced53500310def451a0a0490e41</model>
+        <model_id>cc29aced53500310def451a0a0490e41</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_cc29aced53500310def451a0a0490e41</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>michael.ayeni</sys_created_by>
+        <sys_created_on>2026-04-16 18:21:44</sys_created_on>
+        <sys_id>eed96ca153900310def451a0a0490e49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.ayeni</sys_updated_by>
+        <sys_updated_on>2026-04-16 18:21:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=eed96ca153900310def451a0a0490e49"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=cc29aced53500310def451a0a0490e41^sys_idNOT INbed96ca153900310def451a0a0490ea9"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiUniqueId=95ba2452-0f01-4a78-b952-599d18e2e89d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Item Cost Population">cc29aced53500310def451a0a0490e41</model>
+        <model_id>cc29aced53500310def451a0a0490e41</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_cc29aced53500310def451a0a0490e41</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>michael.ayeni</sys_created_by>
+        <sys_created_on>2026-04-16 18:21:44</sys_created_on>
+        <sys_id>bed96ca153900310def451a0a0490ea9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.ayeni</sys_updated_by>
+        <sys_updated_on>2026-04-16 18:21:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bed96ca153900310def451a0a0490ea9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cc29aced53500310def451a0a0490e41"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=cc29aced53500310def451a0a0490e41"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=cc29aced53500310def451a0a0490e41^sys_idNOT IN72d96ca153900310def451a0a0490ed0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Item Cost Population">cc29aced53500310def451a0a0490e41</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>michael.ayeni</sys_created_by>
+        <sys_created_on>2026-04-16 18:21:45</sys_created_on>
+        <sys_id>72d96ca153900310def451a0a0490ed0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_updated_by>michael.ayeni</sys_updated_by>
+        <sys_updated_on>2026-04-16 18:33:56</sys_updated_on>
+        <ui_id>9488f91e-e7ed-4a11-a2a1-1c763a486612</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VX227bOBD9FUHPjpfyTXbeimQNBGiTReMNsOgWBCVSMbE0qZJUrsi/71CibNdWbKtxFyn2SRA54pyZOWeG+vIcchqehkOKJtlkMhzHCPX7CI1G/ZRESdIfpQlKkijshJIsGFgapS22jzmDpTsiiuUaMSksUW5yQR5v/A4JrAqeYD2dc0E1k+Hpl6+dMCcaTrNMh6fPG1uHwhEkYQJMr8F3MKvwNEAsH6fgQ/G0fv/oPz2rF5WmDkq/E7IHyyRlgCEjwrBOuCCSEqv043JFM0KvpFgtzLm0cFrojB8MfwJ//Z6zyxhElbJqb/mKfYqq5eycWHJtdZHaQnvTCqyBfDwvw1wmsiHnHj566azsn5w92bSnbP2D6AXyTVlGCmHPfsxn1NZnz/msArzKLVdQ9bDv6kISUYevRLGQl1UtwyXCmwayVTvnr3CuMJBslruCugr5cmXXc3X/ua7GlMsSl98UKiVi+Uas1TwprMvLc5hRnHEmKOZScOk8QdkcfZhgC/CAFyTPubzFuVZ3vDwVYll0bwW8dDOh7l0u+K3sktRF3gVike4U1s/L5RuiucvCJzgGPu44h3P41PvDJtU8t/ie01tmV95rK6rsPRH/NO17xuG6UGV44UsnNI/mTBBjVskGmuJvhctBlXqfPVwWqvykRPEBIrhjPlGOA6Vso52yJXRDolWh1/iy3T9ad44DINRZuHKMDJLH11D51lHVvLT4vn1M3UZwWW3U9D5aCxmj47SQJolvS7CVArel5aj26yirPfGr3Oxj/2Tn0JqseMYzvIB88lwwrFkK3DGYaIYzVUiKqxjWZOGSnXFtrDfelslnBqWXgQJOBXbOgtI6WFq3lND+OGoJXWRBHYj3ZgIIJCgDCZaBtAu7zcgeHE1vgyPpbTUOp4SLshrGsnytnExrpV8Z23sKuYMRB870A0FFRwX19qHfJIHG4b8H65GvBO+lP+1rTSkjyaBHRnE/ihCKEI3ROI6j8SjJRiQeZCuNYmxkCncJODkDqsDxuKZGXWe03X+qC0XbRnMAqpqC50r+XSDUi23gYEF9gxrWfuC+oSRKCUbkRkeZwaT5berxe74O311X+U+m+FvVUPDZa4n9WVfkyuV3xS34n5J/K9iFo9iYod44ounJOI7ik0FGRycTSoYnZJIM4z5l6SD7GRdhOtx5C127CqRKUu5CNWsK45Yt4B5q7MX15dXs909/zP7a1lyzUTsFHoCzVuDZOtAm8PXY3lz72HRAPWaOKDT0K0ntjRfm9zJ3DroX0533STJY8ak6bqWDBxxN4sFojGDqu7GOES6Jgx33txVR/dBdVHsthbAfYy2EmQe5gdnTv3xt+lssP9v4W0T/z7/F93nrAkBcAENwVUKjCl2m8g6nojDlhibS+N+U482Mr/8Cj+odKoQVAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=72d96ca153900310def451a0a0490ed0"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=cc29aced53500310def451a0a0490e41"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=cc29aced53500310def451a0a0490e41"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=cc29aced53500310def451a0a0490e41"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=cc29aced53500310def451a0a0490e41"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>item_cost</element>
+        <help/>
+        <hint/>
+        <label>Item Cost</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_cc29aced53500310def451a0a0490e41</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>michael.ayeni</sys_created_by>
+        <sys_created_on>2026-04-16 18:21:44</sys_created_on>
+        <sys_id>bed96ca153900310def451a0a0490e7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.ayeni</sys_updated_by>
+        <sys_updated_on>2026-04-16 18:21:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_cc29aced53500310def451a0a0490e41"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_cc29aced53500310def451a0a0490e41</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>michael.ayeni</sys_created_by>
+        <sys_created_on>2026-04-16 18:21:45</sys_created_on>
+        <sys_id>76d96ca153900310def451a0a0490eaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.ayeni</sys_updated_by>
+        <sys_updated_on>2026-04-16 18:21:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_cc29aced53500310def451a0a0490e41"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=cc29aced53500310def451a0a0490e41"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=cc29aced53500310def451a0a0490e41"/>
+</record_update>

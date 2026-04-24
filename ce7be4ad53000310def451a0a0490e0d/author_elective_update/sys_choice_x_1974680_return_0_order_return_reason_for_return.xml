@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="reason_for_return" table="x_1974680_return_0_order_return" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>reason_for_return</element>
+            <name>x_1974680_return_0_order_return</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-04 09:01:52</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>reason_for_return</sys_name>
+            <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+            <sys_update_name>sys_choice_x_1974680_return_0_order_return_reason_for_return</sys_update_name>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-04 09:01:52</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_return</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change of mind</label>
+            <language>en</language>
+            <name>x_1974680_return_0_order_return</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-04 09:01:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-04 09:01:52</sys_updated_on>
+            <value>change_of_mind</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_return</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Broken/Faulty</label>
+            <language>en</language>
+            <name>x_1974680_return_0_order_return</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-04 09:01:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-04 09:01:53</sys_updated_on>
+            <value>broken_faulty</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_return</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arrived Late</label>
+            <language>en</language>
+            <name>x_1974680_return_0_order_return</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-04 09:01:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-04 09:01:53</sys_updated_on>
+            <value>arrived_late</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_return</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_1974680_return_0_order_return</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-04 09:01:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-04 09:01:53</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata">
+    <par_dashboard_user_metadata action="DELETE">
+        <background_color/>
+        <cache_expiration_time>0</cache_expiration_time>
+        <card_bg_image/>
+        <created_by_user display_value="Lawrence Egwuonwu">76a6a00953444310def451a0a0490e4f</created_by_user>
+        <created_on>2026-04-13 18:16:39</created_on>
+        <dashboard display_value="Flowre">76eb0de453980f10def451a0a0490e5b</dashboard>
+        <edit_locked>{"sysId":"76a6a00953444310def451a0a0490e4f","name":"Lawrence Egwuonwu","lockedOn":"1776104200081"}</edit_locked>
+        <enable_data_cache>false</enable_data_cache>
+        <include_custom_insights>true</include_custom_insights>
+        <include_key_contributors>true</include_key_contributors>
+        <include_kpi_signals>true</include_kpi_signals>
+        <include_predictive_target>true</include_predictive_target>
+        <include_predictive_thresholds>true</include_predictive_thresholds>
+        <include_process_mining>true</include_process_mining>
+        <include_severity>true</include_severity>
+        <include_target>true</include_target>
+        <include_thresholds>true</include_thresholds>
+        <include_trends>true</include_trends>
+        <include_widget_notification>true</include_widget_notification>
+        <last_deactivated_on/>
+        <last_updated_on>2026-04-13 18:16:39</last_updated_on>
+        <po_project_id_list/>
+        <refresh_information>false</refresh_information>
+        <refresh_interval>-1</refresh_interval>
+        <requested_by_user/>
+        <schedule_repetition>false</schedule_repetition>
+        <show_insights_panel>true</show_insights_panel>
+        <sys_class_name>par_dashboard_user_metadata</sys_class_name>
+        <sys_created_by>lawrence.egwuonwu</sys_created_by>
+        <sys_created_on>2026-04-13 18:16:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7eeb0de453980f10def451a0a0490e63</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>par_dashboard_user_metadata_7eeb0de453980f10def451a0a0490e63</sys_update_name>
+        <sys_updated_by>lawrence.egwuonwu</sys_updated_by>
+        <sys_updated_on>2026-04-13 18:16:40</sys_updated_on>
+        <updated_by_user display_value="Lawrence Egwuonwu">76a6a00953444310def451a0a0490e4f</updated_by_user>
+        <use_custom_tab_colors>false</use_custom_tab_colors>
+        <widgets_margin>$now-global-space--sm</widgets_margin>
+    </par_dashboard_user_metadata>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</application>
+        <file_path/>
+        <instance_id>68dccdac1bf2f1501024eb9b2d4bcb98</instance_id>
+        <instance_name>dev224953</instance_name>
+        <name>par_dashboard_user_metadata_7eeb0de453980f10def451a0a0490e63</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata"><par_dashboard_user_metadata action="INSERT_OR_UPDATE"><background_color/><cache_expiration_time>0</cache_expiration_time><card_bg_image/><created_by_user display_value="Lawrence Egwuonwu">76a6a00953444310def451a0a0490e4f</created_by_user><created_on>2026-04-13 18:16:39</created_on><dashboard display_value="Flowre">76eb0de453980f10def451a0a0490e5b</dashboard><edit_locked>{"sysId":"76a6a00953444310def451a0a0490e4f","name":"Lawrence Egwuonwu","lockedOn":"1776104200081"}</edit_locked><enable_data_cache>false</enable_data_cache><include_custom_insights>true</include_custom_insights><include_key_contributors>true</include_key_contributors><include_kpi_signals>true</include_kpi_signals><include_predictive_target>true</include_predictive_target><include_predictive_thresholds>true</include_predictive_thresholds><include_process_mining>true</include_process_mining><include_severity>true</include_severity><include_target>true</include_target><include_thresholds>true</include_thresholds><include_trends>true</include_trends><include_widget_notification>true</include_widget_notification><last_deactivated_on/><last_updated_on>2026-04-13 18:16:39</last_updated_on><po_project_id_list/><refresh_information>false</refresh_information><refresh_interval>-1</refresh_interval><requested_by_user/><schedule_repetition>false</schedule_repetition><show_insights_panel>true</show_insights_panel><sys_class_name>par_dashboard_user_metadata</sys_class_name><sys_created_by>lawrence.egwuonwu</sys_created_by><sys_created_on>2026-04-13 18:16:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7eeb0de453980f10def451a0a0490e63</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package><sys_policy/><sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope><sys_update_name>par_dashboard_user_metadata_7eeb0de453980f10def451a0a0490e63</sys_update_name><sys_updated_by>lawrence.egwuonwu</sys_updated_by><sys_updated_on>2026-04-13 18:16:40</sys_updated_on><updated_by_user display_value="Lawrence Egwuonwu">76a6a00953444310def451a0a0490e4f</updated_by_user><use_custom_tab_colors>false</use_custom_tab_colors><widgets_margin>$now-global-space--sm</widgets_margin></par_dashboard_user_metadata></record_update>]]></payload>
+        <payload_hash>-57862305</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8a7be4ad53000310def451a0a0490e3c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lawrence.egwuonwu</sys_created_by>
+        <sys_created_on>2026-04-13 18:16:40</sys_created_on>
+        <sys_id>43eb8de453980f10def451a0a0490e66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d880f57c00000001</sys_recorded_at>
+        <sys_updated_by>lawrence.egwuonwu</sys_updated_by>
+        <sys_updated_on>2026-04-13 18:16:40</sys_updated_on>
+        <type>PAR Dashboard Metadata</type>
+        <update_guid>03eb8de455980f1075ad4bba997ef365</update_guid>
+        <update_guid_history>03eb8de455980f1075ad4bba997ef365:-57862305,feeb4de46f980f10b0fe1563c9a632ff:-846500815</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">5ab1552453d80f10def451a0a0490e50</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lawrence.egwuonwu</sys_created_by>
+        <sys_created_on>2026-04-13 18:42:00</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_user_metadata">par_dashboard_user_metadata</sys_db_object>
+        <sys_id>06ba4cf118dd4191805701a0d1888779</sys_id>
+        <sys_metadata>7eeb0de453980f10def451a0a0490e63</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_scope_delete display_value="">a9abfa1244bf4238bc9bb1d14e0d0d10</sys_scope_delete>
+        <sys_update_name>par_dashboard_user_metadata_7eeb0de453980f10def451a0a0490e63</sys_update_name>
+        <sys_update_version display_value="par_dashboard_user_metadata_7eeb0de453980f10def451a0a0490e63">43eb8de453980f10def451a0a0490e66</sys_update_version>
+        <sys_updated_by>lawrence.egwuonwu</sys_updated_by>
+        <sys_updated_on>2026-04-13 18:42:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="DELETE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="ReturnFlow - Operations Overview">d1f80d2053980f10def451a0a0490eb0</dashboard>
+        <group display_value="GROUP 1" name="GROUP 1">3af7a00d53444310def451a0a0490e39</group>
+        <owner>false</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-13 18:50:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7b83d5e453d80f10def451a0a0490e91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d1f80d2053980f10def451a0a0490eb0</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>par_dashboard_permission_7b83d5e453d80f10def451a0a0490e91</sys_update_name>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-13 18:50:02</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</application>
+        <file_path/>
+        <instance_id>68dccdac1bf2f1501024eb9b2d4bcb98</instance_id>
+        <instance_name>dev224953</instance_name>
+        <name>par_dashboard_permission_7b83d5e453d80f10def451a0a0490e91</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>false</can_share><can_write>false</can_write><dashboard display_value="ReturnFlow - Operations Overview">d1f80d2053980f10def451a0a0490eb0</dashboard><group display_value="GROUP 1" name="GROUP 1">3af7a00d53444310def451a0a0490e39</group><owner>false</owner><role/><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>emeka.iwu</sys_created_by><sys_created_on>2026-04-13 18:50:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7b83d5e453d80f10def451a0a0490e91</sys_id><sys_mod_count>0</sys_mod_count><sys_name>d1f80d2053980f10def451a0a0490eb0</sys_name><sys_overrides/><sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package><sys_policy/><sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope><sys_update_name>par_dashboard_permission_7b83d5e453d80f10def451a0a0490e91</sys_update_name><sys_updated_by>emeka.iwu</sys_updated_by><sys_updated_on>2026-04-13 18:50:02</sys_updated_on><user/></par_dashboard_permission></record_update>]]></payload>
+        <payload_hash>-1284656112</payload_hash>
+        <record_name>d1f80d2053980f10def451a0a0490eb0</record_name>
+        <reverted_from/>
+        <source>8a7be4ad53000310def451a0a0490e3c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-13 18:50:02</sys_created_on>
+        <sys_id>3383dde453d80f10def451a0a0490e68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d882de6780000001</sys_recorded_at>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-13 18:50:02</sys_updated_on>
+        <type>PAR Dashboard Permission</type>
+        <update_guid>ff83dde4f6d80f10927e544b27bcf966</update_guid>
+        <update_guid_history>ff83dde4f6d80f10927e544b27bcf966:-1284656112</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ReturnFlow - Operations Overview">48f619ac53d80f10def451a0a0490e9a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-13 19:04:48</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_permission">par_dashboard_permission</sys_db_object>
+        <sys_id>5e3999f9be664bc4813eca6a1e229dc4</sys_id>
+        <sys_metadata>7b83d5e453d80f10def451a0a0490e91</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d1f80d2053980f10def451a0a0490eb0</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_scope_delete display_value="">a9abfa1244bf4238bc9bb1d14e0d0d10</sys_scope_delete>
+        <sys_update_name>par_dashboard_permission_7b83d5e453d80f10def451a0a0490e91</sys_update_name>
+        <sys_update_version display_value="par_dashboard_permission_7b83d5e453d80f10def451a0a0490e91">3383dde453d80f10def451a0a0490e68</sys_update_version>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-13 19:04:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

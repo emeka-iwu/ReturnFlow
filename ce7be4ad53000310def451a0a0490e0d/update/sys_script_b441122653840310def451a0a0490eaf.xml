@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1974680_return_0_order_return</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Order Return Checks</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+    // ─────────────────────────────────────────
+    // Grab form values once, reuse throughout
+    // ─────────────────────────────────────────
+    var orderNumber = current.getValue('order_number');
+    var email = current.getValue('email');
+    var lastName = (current.getValue('last_name') || '').toLowerCase().trim();
+
+	// STEP 0: Prevent duplicate return requests
+    var dup = new GlideRecord(current.getTableName());
+    dup.addQuery('order_number', orderNumber);
+    dup.addQuery('sys_id', '!=', current.getUniqueValue());
+    dup.setLimit(1);
+    dup.query();
+
+    if (dup.next()) {
+        current.setAbortAction(true);
+        gs.addErrorMessage('A return request has already been submitted for this order.');
+        return;
+    }
+
+    // ─────────────────────────────────────────
+    // STEP 1: Query Order item table
+    // ─────────────────────────────────────────
+    var orderGR = new GlideRecord('x_1974680_return_0_order_item');
+    orderGR.addQuery('number', orderNumber);
+    orderGR.addQuery('requested_for.email', email);
+    orderGR.setLimit(1); // we only need one record, more efficient
+    orderGR.query();
+
+    if (!orderGR.next()) {
+        current.setAbortAction(true);
+        gs.addErrorMessage('We could not verify your order. ' +
+                           'Please check your order number, ' +
+                           'last name, and email address.');
+        return;
+    }
+
+    // ─────────────────────────────────────────
+    // STEP 2: Extract last word from full name
+    // and compare against submitted last name
+    // ─────────────────────────────────────────
+    var fullName      = orderGR.getDisplayValue('requested_for').toLowerCase().trim();
+    var nameParts     = fullName.split(' ');
+    var lastNameOnOrder = nameParts[nameParts.length - 1]; // last word of full name
+
+    if (lastNameOnOrder !== lastName) {
+        current.setAbortAction(true);
+        gs.addErrorMessage('We could not verify your order. ' +
+                           'Please check your order number, ' +
+                           'last name, and email address.');
+        return;
+    }
+
+    // ─────────────────────────────────────────
+    // STEP 3: Check 14 day return window
+    // ─────────────────────────────────────────
+    var orderCreated = new GlideDateTime(orderGR.getValue('order_date'));
+    var now = new GlideDateTime();
+    var diff = GlideDateTime.subtract(orderCreated, now);
+    var daysDiff = Math.abs(diff.getDayPart());
+
+    if (daysDiff > 14) {
+        current.setAbortAction(true);
+        gs.addErrorMessage('The 14 day return window for this ' +
+                           'order has passed. Please contact ' +
+                           'customer service for assistance.');
+        return;
+    }
+
+    // ─────────────────────────────────────────
+    // STEP 4: All checks passed — allow insert
+    // ─────────────────────────────────────────
+    current.setValue('order_reference', orderGR.getValue('sys_id'));
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-07 18:41:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b441122653840310def451a0a0490eaf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Order Return Checks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>sys_script_b441122653840310def451a0a0490eaf</sys_update_name>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-07 19:51:19</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=b441122653840310def451a0a0490eaf"/>
+</record_update>

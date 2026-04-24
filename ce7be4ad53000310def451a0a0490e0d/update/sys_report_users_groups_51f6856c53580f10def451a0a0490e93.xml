@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Total Returns by State">1df68d2c53580f10def451a0a0490e1d</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-13 17:54:58</sys_created_on>
+        <sys_id>51f6856c53580f10def451a0a0490e93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1df68d2c53580f10def451a0a0490e1d</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>sys_report_users_groups_51f6856c53580f10def451a0a0490e93</sys_update_name>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-13 17:54:58</sys_updated_on>
+        <user_id display_value="Emeka Iwu">9db9eccd53444310def451a0a0490e80</user_id>
+    </sys_report_users_groups>
+</record_update>

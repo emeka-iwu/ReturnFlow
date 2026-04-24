@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>500</order>
+        <published_ref/>
+        <question display_value="Size">5cee732253584b10def451a0a0490ecd</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-20 12:27:53</sys_created_on>
+        <sys_id>163fb36253584b10def451a0a0490e9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>XL</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>question_choice_163fb36253584b10def451a0a0490e9b</sys_update_name>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-20 12:27:53</sys_updated_on>
+        <text>XL</text>
+        <value>XL</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=163fb36253584b10def451a0a0490e9b"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>163fb36253584b10def451a0a0490e9b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-20 12:27:53</sys_created_on>
+        <sys_id>d23f376253584b10def451a0a0490eaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-20 12:27:53</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>163fb36253584b10def451a0a0490e9b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-20 12:27:53</sys_created_on>
+        <sys_id>9a3f376253584b10def451a0a0490eae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-20 12:27:53</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

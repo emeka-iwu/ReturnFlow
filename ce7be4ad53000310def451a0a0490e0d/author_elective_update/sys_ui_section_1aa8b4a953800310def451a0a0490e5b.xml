@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="1aa8b4a953800310def451a0a0490e5b" sys_domain="global" table="x_1974680_return_0_order_return" version="3" view="Self_Service_View">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-04 09:17:59</sys_created_on>
+            <sys_id>e45a3c6d53800310def451a0a0490ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-04 09:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_number</element>
+            <position>1</position>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-04 09:17:59</sys_created_on>
+            <sys_id>a05a3c6d53800310def451a0a0490ed9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-04 09:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>2</position>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-04 09:17:59</sys_created_on>
+            <sys_id>6c5a3c6d53800310def451a0a0490ed9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-04 09:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>3</position>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-04 09:17:59</sys_created_on>
+            <sys_id>285a3c6d53800310def451a0a0490eda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-04 09:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason_for_return</element>
+            <position>4</position>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-04 09:17:59</sys_created_on>
+            <sys_id>e05a3c6d53800310def451a0a0490edb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-04 09:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>5</position>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-04 09:17:59</sys_created_on>
+            <sys_id>ac5a3c6d53800310def451a0a0490edb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-04 09:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>REL.x_1974680_return_0_order_return.REL:b9edf0ca0a0a0b010035de2d6b579a03</element>
+            <position>6</position>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-04 09:17:59</sys_created_on>
+            <sys_id>685a3c6d53800310def451a0a0490edc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-04 09:17:59</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>7</position>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-04 09:17:59</sys_created_on>
+            <sys_id>245a3c6d53800310def451a0a0490edd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-04 09:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>8</position>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-04 09:17:59</sys_created_on>
+            <sys_id>ec5a3c6d53800310def451a0a0490edd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-04 09:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1974680_return_0_order_return</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-04 09:10:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1aa8b4a953800310def451a0a0490e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1974680_return_0_order_return</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+            <sys_update_name>sys_ui_section_1aa8b4a953800310def451a0a0490e5b</sys_update_name>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-04 09:10:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Self Service View" name="Self_Service_View">52a874a953800310def451a0a0490e99</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</application>
+        <file_path/>
+        <instance_id>68dccdac1bf2f1501024eb9b2d4bcb98</instance_id>
+        <instance_name>dev224953</instance_name>
+        <name>sys_ui_section_1aa8b4a953800310def451a0a0490e5b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="1aa8b4a953800310def451a0a0490e5b" sys_domain="global" table="x_1974680_return_0_order_return" version="3" view="Self_Service_View"><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>emeka.iwu</sys_created_by><sys_created_on>2026-04-04 09:17:59</sys_created_on><sys_id>e45a3c6d53800310def451a0a0490ed8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section><sys_updated_by>emeka.iwu</sys_updated_by><sys_updated_on>2026-04-04 09:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>order_number</element><position>1</position><sys_created_by>emeka.iwu</sys_created_by><sys_created_on>2026-04-04 09:17:59</sys_created_on><sys_id>a05a3c6d53800310def451a0a0490ed9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section><sys_updated_by>emeka.iwu</sys_updated_by><sys_updated_on>2026-04-04 09:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>last_name</element><position>2</position><sys_created_by>emeka.iwu</sys_created_by><sys_created_on>2026-04-04 09:17:59</sys_created_on><sys_id>6c5a3c6d53800310def451a0a0490ed9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section><sys_updated_by>emeka.iwu</sys_updated_by><sys_updated_on>2026-04-04 09:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>email</element><position>3</position><sys_created_by>emeka.iwu</sys_created_by><sys_created_on>2026-04-04 09:17:59</sys_created_on><sys_id>285a3c6d53800310def451a0a0490eda</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section><sys_updated_by>emeka.iwu</sys_updated_by><sys_updated_on>2026-04-04 09:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>reason_for_return</element><position>4</position><sys_created_by>emeka.iwu</sys_created_by><sys_created_on>2026-04-04 09:17:59</sys_created_on><sys_id>e05a3c6d53800310def451a0a0490edb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section><sys_updated_by>emeka.iwu</sys_updated_by><sys_updated_on>2026-04-04 09:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>5</position><sys_created_by>emeka.iwu</sys_created_by><sys_created_on>2026-04-04 09:17:59</sys_created_on><sys_id>ac5a3c6d53800310def451a0a0490edb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section><sys_updated_by>emeka.iwu</sys_updated_by><sys_updated_on>2026-04-04 09:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>REL.x_1974680_return_0_order_return.REL:b9edf0ca0a0a0b010035de2d6b579a03</element><position>6</position><sys_created_by>emeka.iwu</sys_created_by><sys_created_on>2026-04-04 09:17:59</sys_created_on><sys_id>685a3c6d53800310def451a0a0490edc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section><sys_updated_by>emeka.iwu</sys_updated_by><sys_updated_on>2026-04-04 09:17:59</sys_updated_on><sys_user/><type>list</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>7</position><sys_created_by>emeka.iwu</sys_created_by><sys_created_on>2026-04-04 09:17:59</sys_created_on><sys_id>245a3c6d53800310def451a0a0490edd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section><sys_updated_by>emeka.iwu</sys_updated_by><sys_updated_on>2026-04-04 09:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>8</position><sys_created_by>emeka.iwu</sys_created_by><sys_created_on>2026-04-04 09:17:59</sys_created_on><sys_id>ec5a3c6d53800310def451a0a0490edd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="52a874a953800310def451a0a0490e99">1aa8b4a953800310def451a0a0490e5b</sys_ui_section><sys_updated_by>emeka.iwu</sys_updated_by><sys_updated_on>2026-04-04 09:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1974680_return_0_order_return</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>emeka.iwu</sys_created_by><sys_created_on>2026-04-04 09:10:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1aa8b4a953800310def451a0a0490e5b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1974680_return_0_order_return</sys_name><sys_overrides/><sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package><sys_policy/><sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope><sys_update_name>sys_ui_section_1aa8b4a953800310def451a0a0490e5b</sys_update_name><sys_updated_by>emeka.iwu</sys_updated_by><sys_updated_on>2026-04-04 09:10:44</sys_updated_on><sys_user/><title>false</title><view display_value="Self Service View" name="Self_Service_View">52a874a953800310def451a0a0490e99</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-981876077</payload_hash>
+        <record_name>Order Return</record_name>
+        <reverted_from/>
+        <source>8a7be4ad53000310def451a0a0490e3c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-04 09:17:59</sys_created_on>
+        <sys_id>b45a3c6d53800310def451a0a0490ee2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d57c8f0fe0000001</sys_recorded_at>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-04 09:17:59</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>b45a3c6ddb800310dd206bab2e3647e1</update_guid>
+        <update_guid_history>b45a3c6ddb800310dd206bab2e3647e1:-981876077,5ea8b4a932800310635278e1a9a7cf68:1016716226</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-07 17:45:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>132c9ffbaf8e4d999ed2f5fc870fcca1</sys_id>
+        <sys_metadata>1aa8b4a953800310def451a0a0490e5b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1974680_return_0_order_return</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_parent display_value="Order Return">4e0534a153800310def451a0a0490e20</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_scope_delete display_value="">a9abfa1244bf4238bc9bb1d14e0d0d10</sys_scope_delete>
+        <sys_update_name>sys_ui_section_1aa8b4a953800310def451a0a0490e5b</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_1aa8b4a953800310def451a0a0490e5b">b45a3c6d53800310def451a0a0490ee2</sys_update_version>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-07 17:45:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

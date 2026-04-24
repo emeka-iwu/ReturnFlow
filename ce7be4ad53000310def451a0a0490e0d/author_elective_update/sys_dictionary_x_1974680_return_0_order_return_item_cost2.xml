@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="item_cost2" table="x_1974680_return_0_order_return">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Item Cost</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>item_cost2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_1974680_return_0_order_return</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1974680_return_0_order_item">x_1974680_return_0_order_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-20 17:13:39</sys_created_on>
+        <sys_id>6ca08d7a53908b10def451a0a0490ef4</sys_id>
+        <sys_name>Item Cost</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>sys_dictionary_x_1974680_return_0_order_return_item_cost2</sys_update_name>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-20 17:13:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</application>
+        <file_path/>
+        <instance_id>68dccdac1bf2f1501024eb9b2d4bcb98</instance_id>
+        <instance_name>dev224953</instance_name>
+        <name>sys_dictionary_x_1974680_return_0_order_return_item_cost2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="item_cost2" table="x_1974680_return_0_order_return"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Item Cost</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>item_cost2</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_1974680_return_0_order_return</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="x_1974680_return_0_order_item">x_1974680_return_0_order_item</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>emeka.iwu</sys_created_by><sys_created_on>2026-04-20 17:13:39</sys_created_on><sys_id>6ca08d7a53908b10def451a0a0490ef4</sys_id><sys_name>Item Cost</sys_name><sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package><sys_policy/><sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope><sys_update_name>sys_dictionary_x_1974680_return_0_order_return_item_cost2</sys_update_name><sys_updated_by>emeka.iwu</sys_updated_by><sys_updated_on>2026-04-20 17:13:40</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1520835150</payload_hash>
+        <record_name>Order Return.Item Cost</record_name>
+        <reverted_from/>
+        <source>8a7be4ad53000310def451a0a0490e3c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-20 17:13:40</sys_created_on>
+        <sys_id>20a0cd7a53908b10def451a0a0490e58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dabe230090000001</sys_recorded_at>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-20 17:13:40</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>eca0cd7a86908b1005181dd8b9e12856</update_guid>
+        <update_guid_history>eca0cd7a86908b1005181dd8b9e12856:-1520835150,a0a0cd7a3e908b10f92abbe748a43a3b:1112375795</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-20 17:40:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>06c10a98bc42440c97d115d13e455ca1</sys_id>
+        <sys_metadata>6ca08d7a53908b10def451a0a0490ef4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Item Cost</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_parent display_value="Order Return">4e0534a153800310def451a0a0490e20</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_scope_delete display_value="">a9abfa1244bf4238bc9bb1d14e0d0d10</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1974680_return_0_order_return_item_cost2</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1974680_return_0_order_return_item_cost2">20a0cd7a53908b10def451a0a0490e58</sys_update_version>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-20 17:40:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

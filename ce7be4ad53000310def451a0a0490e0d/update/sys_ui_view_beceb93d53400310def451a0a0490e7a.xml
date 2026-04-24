@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Self_Service</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-05 08:55:38</sys_created_on>
+        <sys_id>beceb93d53400310def451a0a0490e7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self_service</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>sys_ui_view_beceb93d53400310def451a0a0490e7a</sys_update_name>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-05 08:55:38</sys_updated_on>
+        <title>Self_service</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

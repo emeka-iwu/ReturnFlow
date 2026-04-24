@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="ReturnFlow">9c4a856d53040310def451a0a0490ef2</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_1974680_return_0_order_return">state=5^ORstate=6^EQ<item display_value="Closed Approved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="5"/>
+            <item display_value="Closed Rejected" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="6"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Closed</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1974680_return_0_order_return</name>
+        <order>400</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>michael.ayeni</sys_created_by>
+        <sys_created_on>2026-04-06 17:50:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>568245d253400310def451a0a0490ece</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Closed Return</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>sys_app_module_568245d253400310def451a0a0490ece</sys_update_name>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-10 17:29:47</sys_updated_on>
+        <timeline_page/>
+        <title>Closed Return</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

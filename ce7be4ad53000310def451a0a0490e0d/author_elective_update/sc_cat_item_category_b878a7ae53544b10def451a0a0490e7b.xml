@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Request New Office Couch">f5e7276e53544b10def451a0a0490e72</sc_cat_item>
+        <sc_category display_value="Furniture and Decor">d2f716fcc611227a015a142fa0b262c1</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-20 10:48:23</sys_created_on>
+        <sys_id>b878a7ae53544b10def451a0a0490e7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Furniture and Decor.Request New Office Couch</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>sc_cat_item_category_b878a7ae53544b10def451a0a0490e7b</sys_update_name>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-20 10:48:23</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</application>
+        <file_path/>
+        <instance_id>68dccdac1bf2f1501024eb9b2d4bcb98</instance_id>
+        <instance_name>dev224953</instance_name>
+        <name>sc_cat_item_category_b878a7ae53544b10def451a0a0490e7b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request New Office Couch">f5e7276e53544b10def451a0a0490e72</sc_cat_item><sc_category display_value="Furniture and Decor">d2f716fcc611227a015a142fa0b262c1</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>gauri.phapale</sys_created_by><sys_created_on>2026-04-20 10:48:23</sys_created_on><sys_id>b878a7ae53544b10def451a0a0490e7b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Furniture and Decor.Request New Office Couch</sys_name><sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package><sys_policy/><sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope><sys_update_name>sc_cat_item_category_b878a7ae53544b10def451a0a0490e7b</sys_update_name><sys_updated_by>gauri.phapale</sys_updated_by><sys_updated_on>2026-04-20 10:48:23</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>680668575</payload_hash>
+        <record_name>Furniture and Decor.Request New Office Couch</record_name>
+        <reverted_from/>
+        <source>8a7be4ad53000310def451a0a0490e3c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-20 10:48:23</sys_created_on>
+        <sys_id>b478a7ae53544b10def451a0a0490e82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19daa8172500000001</sys_recorded_at>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-20 10:48:23</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>7478a7ae3d544b105e0b15eb4f050581</update_guid>
+        <update_guid_history>7478a7ae3d544b105e0b15eb4f050581:680668575</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Furniture and Decor.Request New Office Couch">7ada3fe653184b10def451a0a0490ec1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-20 12:08:48</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>2b1af4f63b9242c0b465221f59604610</sys_id>
+        <sys_metadata>b878a7ae53544b10def451a0a0490e7b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Furniture and Decor.Request New Office Couch</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_scope_delete display_value="">a9abfa1244bf4238bc9bb1d14e0d0d10</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_b878a7ae53544b10def451a0a0490e7b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_b878a7ae53544b10def451a0a0490e7b">b478a7ae53544b10def451a0a0490e82</sys_update_version>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-20 12:08:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

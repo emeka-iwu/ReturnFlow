@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Self_Service_View</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-04 09:10:43</sys_created_on>
+        <sys_id>52a874a953800310def451a0a0490e99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self Service View</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>sys_ui_view_52a874a953800310def451a0a0490e99</sys_update_name>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-04 09:10:43</sys_updated_on>
+        <title>Self Service View</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</application>
+        <file_path/>
+        <instance_id>68dccdac1bf2f1501024eb9b2d4bcb98</instance_id>
+        <instance_name>dev224953</instance_name>
+        <name>sys_ui_view_52a874a953800310def451a0a0490e99</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>Self_Service_View</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>emeka.iwu</sys_created_by><sys_created_on>2026-04-04 09:10:43</sys_created_on><sys_id>52a874a953800310def451a0a0490e99</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Self Service View</sys_name><sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package><sys_policy/><sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope><sys_update_name>sys_ui_view_52a874a953800310def451a0a0490e99</sys_update_name><sys_updated_by>emeka.iwu</sys_updated_by><sys_updated_on>2026-04-04 09:10:43</sys_updated_on><title>Self Service View</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>1791551981</payload_hash>
+        <record_name>Self Service View</record_name>
+        <reverted_from/>
+        <source>8a7be4ad53000310def451a0a0490e3c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-04 09:10:43</sys_created_on>
+        <sys_id>12a8b4a953800310def451a0a0490e59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d57c24a180000001</sys_recorded_at>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-04 09:10:43</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>dea8b4a90480031020cf327782d92157</update_guid>
+        <update_guid_history>dea8b4a90480031020cf327782d92157:1791551981</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-07 17:45:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>1c30841bc298476c8629022eeff44610</sys_id>
+        <sys_metadata>52a874a953800310def451a0a0490e99</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self Service View</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_scope_delete display_value="">a9abfa1244bf4238bc9bb1d14e0d0d10</sys_scope_delete>
+        <sys_update_name>sys_ui_view_52a874a953800310def451a0a0490e99</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_52a874a953800310def451a0a0490e99">12a8b4a953800310def451a0a0490e59</sys_update_version>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-07 17:45:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

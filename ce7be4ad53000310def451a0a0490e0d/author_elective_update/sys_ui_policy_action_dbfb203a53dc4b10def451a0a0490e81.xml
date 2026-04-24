@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>item_cost</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-20 15:44:23</sys_created_on>
+        <sys_id>dbfb203a53dc4b10def451a0a0490e81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>item_cost</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_dbfb203a53dc4b10def451a0a0490e81</sys_update_name>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-20 15:44:23</sys_updated_on>
+        <table>x_1974680_return_0_order_return</table>
+        <ui_policy display_value="if item cost is empty, hide it.">5abba4f653dc4b10def451a0a0490e9c</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=dbfb203a53dc4b10def451a0a0490e81"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</application>
+        <file_path/>
+        <instance_id>68dccdac1bf2f1501024eb9b2d4bcb98</instance_id>
+        <instance_name>dev224953</instance_name>
+        <name>sys_ui_policy_action_dbfb203a53dc4b10def451a0a0490e81</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>item_cost</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>emeka.iwu</sys_created_by><sys_created_on>2026-04-20 15:44:23</sys_created_on><sys_id>dbfb203a53dc4b10def451a0a0490e81</sys_id><sys_mod_count>0</sys_mod_count><sys_name>item_cost</sys_name><sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package><sys_policy/><sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope><sys_update_name>sys_ui_policy_action_dbfb203a53dc4b10def451a0a0490e81</sys_update_name><sys_updated_by>emeka.iwu</sys_updated_by><sys_updated_on>2026-04-20 15:44:23</sys_updated_on><table>x_1974680_return_0_order_return</table><ui_policy display_value="if item cost is empty, hide it.">5abba4f653dc4b10def451a0a0490e9c</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=dbfb203a53dc4b10def451a0a0490e81"/></record_update>]]></payload>
+        <payload_hash>-1833538363</payload_hash>
+        <record_name>item_cost</record_name>
+        <reverted_from/>
+        <source>8a7be4ad53000310def451a0a0490e3c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-20 15:44:23</sys_created_on>
+        <sys_id>783ce43a53dc4b10def451a0a0490ec1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dab90726e0000001</sys_recorded_at>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-20 15:44:23</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>383ce43a3fdc4b10bf034339d86513c0</update_guid>
+        <update_guid_history>383ce43a3fdc4b10bf034339d86513c0:-1833538363</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-20 16:35:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>3f7de5cb5d664f20a7fdaf4667ff9084</sys_id>
+        <sys_metadata>dbfb203a53dc4b10def451a0a0490e81</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>item_cost</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_scope_delete display_value="">a9abfa1244bf4238bc9bb1d14e0d0d10</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_dbfb203a53dc4b10def451a0a0490e81</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_dbfb203a53dc4b10def451a0a0490e81">783ce43a53dc4b10def451a0a0490ec1</sys_update_version>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-20 16:35:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

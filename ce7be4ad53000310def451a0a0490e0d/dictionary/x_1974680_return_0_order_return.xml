@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="4e0534a153800310def451a0a0490e20" extends="task" label="Order Return" max_length="40" name="x_1974680_return_0_order_return" type="collection">
+        <element label="Reason for Rejection" max_length="40" name="reason_for_rejection" read_only="true" type="string"/>
+        <element label="Item Cost" max_length="20" name="item_cost" type="currency"/>
+        <element label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element label="Order Number" mandatory="true" max_length="40" name="order_number" type="string"/>
+        <element label="Item Category" max_length="40" name="item_category" type="string"/>
+        <element choice="3" default="change_of_mind" label="Reason For Return" mandatory="true" max_length="40" name="reason_for_return" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Arrived Late" sequence="2" value="arrived_late"/>
+                <element inactive_on_update="false" label="Change of mind" sequence="0" value="change_of_mind"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+                <element inactive_on_update="false" label="Broken/Faulty" sequence="1" value="broken_faulty"/>
+            </choice>
+        </element>
+        <element label="Cost of Item" max_length="40" name="cost_of_item" type="integer"/>
+        <element label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Return an Item">bb77e12b53404710def451a0a0490e2c</catalog_item>
+        <catalog_variable>IO:d087e52b53404710def451a0a0490ea1</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-10 17:46:29</sys_created_on>
+        <sys_id>7128ad6b53404710def451a0a0490ec5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>comments</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_7128ad6b53404710def451a0a0490ec5</sys_update_name>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-10 17:46:29</sys_updated_on>
+        <table/>
+        <ui_policy display_value="If reason for return is Other, Additional comments is mandatory">29d7256b53404710def451a0a0490ea4</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>comments</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=7128ad6b53404710def451a0a0490ec5"/>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="558bd4b453148f10def451a0a0490e6f" sys_domain="global" table="x_1974680_return_0_order_return" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-14 09:23:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>118bd4b453148f10def451a0a0490e75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1974680_return_0_order_return" name="x_1974680_return_0_order_return" sys_domain="global" view="Default view">558bd4b453148f10def451a0a0490e6f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="Default view">9e05f0e953400310def451a0a0490e48</sys_ui_section>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-14 09:23:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-14 09:23:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>198bd4b453148f10def451a0a0490e76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1974680_return_0_order_return" name="x_1974680_return_0_order_return" sys_domain="global" view="Default view">558bd4b453148f10def451a0a0490e6f</sys_ui_form>
+            <sys_ui_section caption="Return Status" display_value="Return Status" name="x_1974680_return_0_order_return" sys_domain="global" view="Default view">d18bd4b453148f10def451a0a0490e6d</sys_ui_section>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-14 09:23:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1974680_return_0_order_return</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>emeka.iwu</sys_created_by>
+            <sys_created_on>2026-04-14 09:23:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>558bd4b453148f10def451a0a0490e6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1974680_return_0_order_return</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_558bd4b453148f10def451a0a0490e6f</sys_update_name>
+            <sys_updated_by>emeka.iwu</sys_updated_by>
+            <sys_updated_on>2026-04-14 09:23:40</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

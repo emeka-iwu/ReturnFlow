@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="190727b253c00310def451a0a0490e3d" extends="task" label="ReturnFlow Task" max_length="40" name="x_1974680_return_0_returnflow_task" type="collection">
+        <element label="Return Number" max_length="32" name="order_return" reference="x_1974680_return_0_order_return" type="reference"/>
+        <element choice="3" label="Task Outcome" max_length="40" name="inspection_outcome" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Finance Approved" sequence="2" value="Finance Approved"/>
+                <element inactive_on_update="false" label="Warehouse Approved" sequence="0" value="approved"/>
+                <element inactive_on_update="false" label="Warehouse Rejected" sequence="1" value="rejected"/>
+            </choice>
+        </element>
+        <element label="Reason for Rejection" max_length="40" name="reason_for_rejection" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>assigned_to</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>fiyinfoluwa.ade</sys_created_by>
+        <sys_created_on>2026-04-14 07:58:26</sys_created_on>
+        <sys_id>97e7003c53508f10def451a0a0490e3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_97e7003c53508f10def451a0a0490e3d</sys_update_name>
+        <sys_updated_by>fiyinfoluwa.ade</sys_updated_by>
+        <sys_updated_on>2026-04-14 07:58:26</sys_updated_on>
+        <table>x_1974680_return_0_returnflow_task</table>
+        <ui_policy display_value="Hide assigned to if empty">c5b708f853508f10def451a0a0490ea9</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=97e7003c53508f10def451a0a0490e3d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</application>
+        <file_path/>
+        <instance_id>68dccdac1bf2f1501024eb9b2d4bcb98</instance_id>
+        <instance_name>dev224953</instance_name>
+        <name>sys_ui_policy_action_97e7003c53508f10def451a0a0490e3d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>assigned_to</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>fiyinfoluwa.ade</sys_created_by><sys_created_on>2026-04-14 07:58:26</sys_created_on><sys_id>97e7003c53508f10def451a0a0490e3d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>assigned_to</sys_name><sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package><sys_policy/><sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope><sys_update_name>sys_ui_policy_action_97e7003c53508f10def451a0a0490e3d</sys_update_name><sys_updated_by>fiyinfoluwa.ade</sys_updated_by><sys_updated_on>2026-04-14 07:58:26</sys_updated_on><table>x_1974680_return_0_returnflow_task</table><ui_policy display_value="Hide assigned to if empty">c5b708f853508f10def451a0a0490ea9</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=97e7003c53508f10def451a0a0490e3d"/></record_update>]]></payload>
+        <payload_hash>2032494200</payload_hash>
+        <record_name>assigned_to</record_name>
+        <reverted_from/>
+        <source>8a7be4ad53000310def451a0a0490e3c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>fiyinfoluwa.ade</sys_created_by>
+        <sys_created_on>2026-04-14 07:58:26</sys_created_on>
+        <sys_id>7c08c03c53508f10def451a0a0490e47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d8affb4260000001</sys_recorded_at>
+        <sys_updated_by>fiyinfoluwa.ade</sys_updated_by>
+        <sys_updated_on>2026-04-14 07:58:26</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>3c08c03c97508f1086577b6fd5c1bd46</update_guid>
+        <update_guid_history>3c08c03c97508f1086577b6fd5c1bd46:2032494200</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>fiyinfoluwa.ade</sys_created_by>
+        <sys_created_on>2026-04-14 10:43:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>071d24415f5647728e0b24ff6e2cd684</sys_id>
+        <sys_metadata>97e7003c53508f10def451a0a0490e3d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_parent display_value="">c5b708f853508f10def451a0a0490ea9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_scope_delete display_value="">a9abfa1244bf4238bc9bb1d14e0d0d10</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_97e7003c53508f10def451a0a0490e3d</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_97e7003c53508f10def451a0a0490e3d">7c08c03c53508f10def451a0a0490e47</sys_update_version>
+        <sys_updated_by>fiyinfoluwa.ade</sys_updated_by>
+        <sys_updated_on>2026-04-14 10:43:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

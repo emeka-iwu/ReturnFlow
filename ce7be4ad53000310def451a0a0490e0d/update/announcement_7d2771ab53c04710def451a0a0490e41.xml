@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement">
+    <announcement action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <click_target>urlNew</click_target>
+        <details/>
+        <details_link_text>Click to learn more</details_link_text>
+        <details_page/>
+        <details_url>https://dev224953.service-now.com/sp/en/how-to-return-an-item?id=kb_article_view&amp;sys_kb_id=10c4d06753c40710def451a0a0490ec5</details_url>
+        <dismiss_options>not_dismissible</dismiss_options>
+        <display_first>false</display_first>
+        <display_style display_value="Normal">704dedd6e7d4030075c2a117c2f6a91b</display_style>
+        <from>2026-04-10 18:56:19</from>
+        <glyph>recycle</glyph>
+        <glyph_alt_text/>
+        <name>ReturnFlow Announcement</name>
+        <public>true</public>
+        <roles/>
+        <show_for_unauthenticated_users_only>false</show_for_unauthenticated_users_only>
+        <summary>Good news! Customers can now return an item for an order. T&amp;C applies.</summary>
+        <sys_class_name>announcement</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-10 18:56:26</sys_created_on>
+        <sys_id>7d2771ab53c04710def451a0a0490e41</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ReturnFlow Announcement</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>announcement_7d2771ab53c04710def451a0a0490e41</sys_update_name>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-15 17:49:43</sys_updated_on>
+        <title>You Can Now Return an Item</title>
+        <to/>
+        <type>67eaf134e7a3320075c2a117c2f6a9d2,52fa79f8e763320075c2a117c2f6a991</type>
+    </announcement>
+    <sys_translated_text action="delete_multiple" query="documentkey=7d2771ab53c04710def451a0a0490e41"/>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1974680_return_0.user" name="x_1974680_return_0.user">0e7be4ad53000310def451a0a0490e6a</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-04 08:13:06</sys_created_on>
+        <sys_id>c27be4ad53000310def451a0a0490e6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0e7be4ad53000310def451a0a0490e6a</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>sys_embedded_help_role_c27be4ad53000310def451a0a0490e6d</sys_update_name>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-04 08:13:06</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

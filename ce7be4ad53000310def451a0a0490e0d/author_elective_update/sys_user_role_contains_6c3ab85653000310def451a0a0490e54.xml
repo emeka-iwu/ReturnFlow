@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="x_1974680_return_0.user" name="x_1974680_return_0.user">0e7be4ad53000310def451a0a0490e6a</contains>
+        <role display_value="x_1974680_return_0.admin" name="x_1974680_return_0.admin">4e7be4ad53000310def451a0a0490e51</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>michael.ayeni</sys_created_by>
+        <sys_created_on>2026-04-06 17:12:53</sys_created_on>
+        <sys_id>6c3ab85653000310def451a0a0490e54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1974680_return_0.user.x_1974680_return_0.admin</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>sys_user_role_contains_6c3ab85653000310def451a0a0490e54</sys_update_name>
+        <sys_updated_by>michael.ayeni</sys_updated_by>
+        <sys_updated_on>2026-04-06 17:12:53</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</application>
+        <file_path/>
+        <instance_id>68dccdac1bf2f1501024eb9b2d4bcb98</instance_id>
+        <instance_name>dev224953</instance_name>
+        <name>sys_user_role_contains_6c3ab85653000310def451a0a0490e54</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="x_1974680_return_0.user" name="x_1974680_return_0.user">0e7be4ad53000310def451a0a0490e6a</contains><role display_value="x_1974680_return_0.admin" name="x_1974680_return_0.admin">4e7be4ad53000310def451a0a0490e51</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>michael.ayeni</sys_created_by><sys_created_on>2026-04-06 17:12:53</sys_created_on><sys_id>6c3ab85653000310def451a0a0490e54</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1974680_return_0.user.x_1974680_return_0.admin</sys_name><sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package><sys_policy/><sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope><sys_update_name>sys_user_role_contains_6c3ab85653000310def451a0a0490e54</sys_update_name><sys_updated_by>michael.ayeni</sys_updated_by><sys_updated_on>2026-04-06 17:12:53</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>-896067152</payload_hash>
+        <record_name>x_1974680_return_0.user.x_1974680_return_0.admin</record_name>
+        <reverted_from/>
+        <source>8a7be4ad53000310def451a0a0490e3c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michael.ayeni</sys_created_by>
+        <sys_created_on>2026-04-06 17:12:53</sys_created_on>
+        <sys_id>603ab85653000310def451a0a0490e7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d63c870b60000001</sys_recorded_at>
+        <sys_updated_by>michael.ayeni</sys_updated_by>
+        <sys_updated_on>2026-04-06 17:12:53</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>203ab8568100031087abe17dcc55507b</update_guid>
+        <update_guid_history>203ab8568100031087abe17dcc55507b:-896067152</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michael.ayeni</sys_created_by>
+        <sys_created_on>2026-04-06 17:16:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>901f06ed2bc5422abad862ecc0472f84</sys_id>
+        <sys_metadata>6c3ab85653000310def451a0a0490e54</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1974680_return_0.user.x_1974680_return_0.admin</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_scope_delete display_value="">a9abfa1244bf4238bc9bb1d14e0d0d10</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_6c3ab85653000310def451a0a0490e54</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_6c3ab85653000310def451a0a0490e54">603ab85653000310def451a0a0490e7c</sys_update_version>
+        <sys_updated_by>michael.ayeni</sys_updated_by>
+        <sys_updated_on>2026-04-06 17:16:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

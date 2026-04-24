@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_category">
+    <sys_notification_category action="INSERT_OR_UPDATE">
+        <name>Returnflow Task Creation</name>
+        <short_description>Triggers when task is created in the ReturnFlow Task Table</short_description>
+        <sys_class_name>sys_notification_category</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-14 11:32:19</sys_created_on>
+        <sys_id>ccd8747453188f10def451a0a0490e20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Returnflow Task Creation</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>sys_notification_category_ccd8747453188f10def451a0a0490e20</sys_update_name>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-14 11:32:19</sys_updated_on>
+    </sys_notification_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=ccd8747453188f10def451a0a0490e20"/>
+</record_update>

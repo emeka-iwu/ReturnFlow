@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>2</order>
+        <published_ref/>
+        <question display_value="Reason For Return">0087e52b53404710def451a0a0490e3e</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-10 17:43:15</sys_created_on>
+        <sys_id>9087e52b53404710def451a0a0490e7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Arrived Late</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>question_choice_9087e52b53404710def451a0a0490e7a</sys_update_name>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-10 17:43:15</sys_updated_on>
+        <text>Arrived Late</text>
+        <value>arrived_late</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=9087e52b53404710def451a0a0490e7a"/>
+</record_update>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Return an Item">bb77e12b53404710def451a0a0490e2c</cat_item>
+        <cat_variable>IO:0087e52b53404710def451a0a0490e3e</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Show Attachment on Broken/Faulty</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+
+    if (isLoading) {
+        return;
+    }
+
+    if (newValue === 'broken_faulty') {
+        g_form.setSectionDisplay('attachments', true);
+        g_form.setMandatory('attachments', true);
+    } else {
+        g_form.setSectionDisplay('attachments', false);
+        g_form.setMandatory('attachments', false);
+    }
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-10 17:59:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0e49e52f53404710def451a0a0490ef9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Show Attachment on Broken/Faulty</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>catalog_script_client_0e49e52f53404710def451a0a0490ef9</sys_update_name>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-10 18:08:12</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <va_supported>false</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</application>
+        <file_path/>
+        <instance_id>68dccdac1bf2f1501024eb9b2d4bcb98</instance_id>
+        <instance_name>dev224953</instance_name>
+        <name>catalog_script_client_0e49e52f53404710def451a0a0490ef9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Return an Item"&gt;bb77e12b53404710def451a0a0490e2c&lt;/cat_item&gt;&lt;cat_variable&gt;IO:0087e52b53404710def451a0a0490e3e&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Show Attachment on Broken/Faulty&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+
+    if (isLoading) {
+        return;
+    }
+
+    if (newValue === 'broken_faulty') {
+        g_form.setSectionDisplay('attachments', true);
+        g_form.setMandatory('attachments', true);
+    } else {
+        g_form.setSectionDisplay('attachments', false);
+        g_form.setMandatory('attachments', false);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emeka.iwu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-10 17:59:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0e49e52f53404710def451a0a0490ef9&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Show Attachment on Broken/Faulty&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ReturnFlow" source="x_1974680_return_0"&gt;ce7be4ad53000310def451a0a0490e0d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ReturnFlow"&gt;ce7be4ad53000310def451a0a0490e0d&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_0e49e52f53404710def451a0a0490ef9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;emeka.iwu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-10 18:08:12&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;false&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>737478199</payload_hash>
+        <record_name>Show Attachment on Broken/Faulty</record_name>
+        <reverted_from/>
+        <source>8a7be4ad53000310def451a0a0490e3c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-10 18:08:12</sys_created_on>
+        <sys_id>bd3d692753804710def451a0a0490e49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d789484d90000001</sys_recorded_at>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-10 18:08:12</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>7d3d6927be804710fb56683121065848</update_guid>
+        <update_guid_history>7d3d6927be804710fb56683121065848:737478199,605b6923ad80471000daea5f3deda08f:1124455193,2b1b21236c804710a731ddc1a162bae1:888248847</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Show Attachment on Broken/Faulty">bd8da16753804710def451a0a0490e6a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emeka.iwu</sys_created_by>
+        <sys_created_on>2026-04-10 18:09:35</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>0cbd5da0374641088115739d2022fc40</sys_id>
+        <sys_metadata>0e49e52f53404710def451a0a0490ef9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Attachment on Broken/Faulty</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_scope_delete display_value="">a9abfa1244bf4238bc9bb1d14e0d0d10</sys_scope_delete>
+        <sys_update_name>catalog_script_client_0e49e52f53404710def451a0a0490ef9</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_0e49e52f53404710def451a0a0490ef9">bd3d692753804710def451a0a0490e49</sys_update_version>
+        <sys_updated_by>emeka.iwu</sys_updated_by>
+        <sys_updated_on>2026-04-10 18:09:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

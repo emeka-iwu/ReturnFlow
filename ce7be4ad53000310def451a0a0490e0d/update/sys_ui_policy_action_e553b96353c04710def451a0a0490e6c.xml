@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>inspection_outcome</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-10 18:35:12</sys_created_on>
+        <sys_id>e553b96353c04710def451a0a0490e6c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>inspection_outcome</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e553b96353c04710def451a0a0490e6c</sys_update_name>
+        <sys_updated_by>fiyinfoluwa.ade</sys_updated_by>
+        <sys_updated_on>2026-04-14 07:55:15</sys_updated_on>
+        <table>x_1974680_return_0_returnflow_task</table>
+        <ui_policy display_value="Make Task Outcome mandatory if State is Closed">32e27d2353c04710def451a0a0490e0e</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=e553b96353c04710def451a0a0490e6c"/>
+</record_update>

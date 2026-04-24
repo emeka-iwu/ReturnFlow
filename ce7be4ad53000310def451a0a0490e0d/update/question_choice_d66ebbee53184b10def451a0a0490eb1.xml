@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>40</misc>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Type">775e7fae53184b10def451a0a0490e80</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-20 12:24:36</sys_created_on>
+        <sys_id>d66ebbee53184b10def451a0a0490eb1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Shirt</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>question_choice_d66ebbee53184b10def451a0a0490eb1</sys_update_name>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-21 05:04:10</sys_updated_on>
+        <text>Shirt</text>
+        <value>Shirt</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=d66ebbee53184b10def451a0a0490eb1"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>40</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>d66ebbee53184b10def451a0a0490eb1</id>
+        <parent/>
+        <reference_amount>40</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-20 12:24:36</sys_created_on>
+        <sys_id>167e3fee53184b10def451a0a0490ee2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-21 05:04:10</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

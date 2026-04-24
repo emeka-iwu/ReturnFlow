@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="e42055d253c00310def451a0a0490e3d" sys_domain="global" table="x_1974680_return_0_order_return" version="3" view="ess">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>gauri.phapale</sys_created_by>
+            <sys_created_on>2026-04-21 19:11:19</sys_created_on>
+            <sys_id>6125ea0353104f10def451a0a0490e0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="a73ba242183232108bb255f46a373a81">e42055d253c00310def451a0a0490e3d</sys_ui_section>
+            <sys_updated_by>gauri.phapale</sys_updated_by>
+            <sys_updated_on>2026-04-21 19:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_number</element>
+            <position>1</position>
+            <sys_created_by>gauri.phapale</sys_created_by>
+            <sys_created_on>2026-04-21 19:11:19</sys_created_on>
+            <sys_id>2925ea0353104f10def451a0a0490e0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="a73ba242183232108bb255f46a373a81">e42055d253c00310def451a0a0490e3d</sys_ui_section>
+            <sys_updated_by>gauri.phapale</sys_updated_by>
+            <sys_updated_on>2026-04-21 19:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>2</position>
+            <sys_created_by>gauri.phapale</sys_created_by>
+            <sys_created_on>2026-04-21 19:11:19</sys_created_on>
+            <sys_id>a525ea0353104f10def451a0a0490e10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="a73ba242183232108bb255f46a373a81">e42055d253c00310def451a0a0490e3d</sys_ui_section>
+            <sys_updated_by>gauri.phapale</sys_updated_by>
+            <sys_updated_on>2026-04-21 19:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>3</position>
+            <sys_created_by>gauri.phapale</sys_created_by>
+            <sys_created_on>2026-04-21 19:11:19</sys_created_on>
+            <sys_id>2525ea0353104f10def451a0a0490e11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="a73ba242183232108bb255f46a373a81">e42055d253c00310def451a0a0490e3d</sys_ui_section>
+            <sys_updated_by>gauri.phapale</sys_updated_by>
+            <sys_updated_on>2026-04-21 19:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason_for_return</element>
+            <position>4</position>
+            <sys_created_by>gauri.phapale</sys_created_by>
+            <sys_created_on>2026-04-21 19:11:19</sys_created_on>
+            <sys_id>a125ea0353104f10def451a0a0490e12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="a73ba242183232108bb255f46a373a81">e42055d253c00310def451a0a0490e3d</sys_ui_section>
+            <sys_updated_by>gauri.phapale</sys_updated_by>
+            <sys_updated_on>2026-04-21 19:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>5</position>
+            <sys_created_by>gauri.phapale</sys_created_by>
+            <sys_created_on>2026-04-21 19:11:19</sys_created_on>
+            <sys_id>2125ea0353104f10def451a0a0490e13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="a73ba242183232108bb255f46a373a81">e42055d253c00310def451a0a0490e3d</sys_ui_section>
+            <sys_updated_by>gauri.phapale</sys_updated_by>
+            <sys_updated_on>2026-04-21 19:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>REL.x_1974680_return_0_order_return.REL:b9edf0ca0a0a0b010035de2d6b579a03</element>
+            <position>6</position>
+            <sys_created_by>gauri.phapale</sys_created_by>
+            <sys_created_on>2026-04-21 19:11:19</sys_created_on>
+            <sys_id>6525ea0353104f10def451a0a0490e20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="a73ba242183232108bb255f46a373a81">e42055d253c00310def451a0a0490e3d</sys_ui_section>
+            <sys_updated_by>gauri.phapale</sys_updated_by>
+            <sys_updated_on>2026-04-21 19:11:19</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>7</position>
+            <sys_created_by>gauri.phapale</sys_created_by>
+            <sys_created_on>2026-04-21 19:11:19</sys_created_on>
+            <sys_id>e125ea0353104f10def451a0a0490e21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="a73ba242183232108bb255f46a373a81">e42055d253c00310def451a0a0490e3d</sys_ui_section>
+            <sys_updated_by>gauri.phapale</sys_updated_by>
+            <sys_updated_on>2026-04-21 19:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason_for_rejection</element>
+            <position>8</position>
+            <sys_created_by>gauri.phapale</sys_created_by>
+            <sys_created_on>2026-04-21 19:11:19</sys_created_on>
+            <sys_id>6125ea0353104f10def451a0a0490e22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="a73ba242183232108bb255f46a373a81">e42055d253c00310def451a0a0490e3d</sys_ui_section>
+            <sys_updated_by>gauri.phapale</sys_updated_by>
+            <sys_updated_on>2026-04-21 19:11:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>9</position>
+            <sys_created_by>gauri.phapale</sys_created_by>
+            <sys_created_on>2026-04-21 19:11:19</sys_created_on>
+            <sys_id>ed25ea0353104f10def451a0a0490e22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974680_return_0_order_return" sys_domain="global" view="a73ba242183232108bb255f46a373a81">e42055d253c00310def451a0a0490e3d</sys_ui_section>
+            <sys_updated_by>gauri.phapale</sys_updated_by>
+            <sys_updated_on>2026-04-21 19:11:19</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1974680_return_0_order_return</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>michael.ayeni</sys_created_by>
+            <sys_created_on>2026-04-06 18:48:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e42055d253c00310def451a0a0490e3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1974680_return_0_order_return</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+            <sys_update_name>sys_ui_section_e42055d253c00310def451a0a0490e3d</sys_update_name>
+            <sys_updated_by>michael.ayeni</sys_updated_by>
+            <sys_updated_on>2026-04-06 18:48:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Self Service" name="ess">a73ba242183232108bb255f46a373a81</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

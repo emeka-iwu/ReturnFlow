@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Couch size">475c27a653944b10def451a0a0490eac</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-20 11:07:04</sys_created_on>
+        <sys_id>979c2fa653944b10def451a0a0490e72</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Sectional</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>question_choice_979c2fa653944b10def451a0a0490e72</sys_update_name>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-20 12:00:49</sys_updated_on>
+        <text>Sectional</text>
+        <value>sectional</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=979c2fa653944b10def451a0a0490e72"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>979c2fa653944b10def451a0a0490e72</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-20 11:38:40</sys_created_on>
+        <sys_id>a9f33be653d44b10def451a0a0490ef3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-20 12:00:49</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</application>
+        <file_path/>
+        <instance_id>68dccdac1bf2f1501024eb9b2d4bcb98</instance_id>
+        <instance_name>dev224953</instance_name>
+        <name>question_choice_979c2fa653944b10def451a0a0490e72</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>300</order><published_ref/><question display_value="Couch size">475c27a653944b10def451a0a0490eac</question><sys_class_name>question_choice</sys_class_name><sys_created_by>gauri.phapale</sys_created_by><sys_created_on>2026-04-20 11:07:04</sys_created_on><sys_id>979c2fa653944b10def451a0a0490e72</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Sectional</sys_name><sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package><sys_policy/><sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope><sys_update_name>question_choice_979c2fa653944b10def451a0a0490e72</sys_update_name><sys_updated_by>gauri.phapale</sys_updated_by><sys_updated_on>2026-04-20 12:00:49</sys_updated_on><text>Sectional</text><value>sectional</value></question_choice><fx_price action="delete_multiple" query="id=979c2fa653944b10def451a0a0490e72"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>979c2fa653944b10def451a0a0490e72</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>gauri.phapale</sys_created_by><sys_created_on>2026-04-20 11:38:40</sys_created_on><sys_id>a9f33be653d44b10def451a0a0490ef3</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>gauri.phapale</sys_updated_by><sys_updated_on>2026-04-20 12:00:49</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-1717418471</payload_hash>
+        <record_name>Sectional</record_name>
+        <reverted_from/>
+        <source>8a7be4ad53000310def451a0a0490e3c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-20 12:00:49</sys_created_on>
+        <sys_id>bd097fe253184b10def451a0a0490e13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19daac3c4730000001</sys_recorded_at>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-20 12:00:49</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>7d097fe245184b10f793f7a25a386612</update_guid>
+        <update_guid_history>7d097fe245184b10f793f7a25a386612:-1717418471,25f33be61cd44b10382db791b59acef8:-147691397,62bcefa6c3944b10dbaab183de4b60df:1008019851</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Sectional">8bb314b2531c4b10def451a0a0490e99</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-20 13:57:31</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>24d88819353a4c4c8a6c443ad41d3a24</sys_id>
+        <sys_metadata>979c2fa653944b10def451a0a0490e72</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sectional</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_scope_delete display_value="">a9abfa1244bf4238bc9bb1d14e0d0d10</sys_scope_delete>
+        <sys_update_name>question_choice_979c2fa653944b10def451a0a0490e72</sys_update_name>
+        <sys_update_version display_value="question_choice_979c2fa653944b10def451a0a0490e72">bd097fe253184b10def451a0a0490e13</sys_update_version>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-20 13:57:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

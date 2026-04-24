@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Couch colour">e83b6be253944b10def451a0a0490eee</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-20 11:03:39</sys_created_on>
+        <sys_id>3adb636653944b10def451a0a0490ee6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Navy Blue</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_update_name>question_choice_3adb636653944b10def451a0a0490ee6</sys_update_name>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-20 11:03:39</sys_updated_on>
+        <text>Navy Blue</text>
+        <value>Navy Blue</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=3adb636653944b10def451a0a0490ee6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</application>
+        <file_path/>
+        <instance_id>68dccdac1bf2f1501024eb9b2d4bcb98</instance_id>
+        <instance_name>dev224953</instance_name>
+        <name>question_choice_3adb636653944b10def451a0a0490ee6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>300</order><published_ref/><question display_value="Couch colour">e83b6be253944b10def451a0a0490eee</question><sys_class_name>question_choice</sys_class_name><sys_created_by>gauri.phapale</sys_created_by><sys_created_on>2026-04-20 11:03:39</sys_created_on><sys_id>3adb636653944b10def451a0a0490ee6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Navy Blue</sys_name><sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package><sys_policy/><sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope><sys_update_name>question_choice_3adb636653944b10def451a0a0490ee6</sys_update_name><sys_updated_by>gauri.phapale</sys_updated_by><sys_updated_on>2026-04-20 11:03:39</sys_updated_on><text>Navy Blue</text><value>Navy Blue</value></question_choice><fx_price action="delete_multiple" query="id=3adb636653944b10def451a0a0490ee6"/></record_update>]]></payload>
+        <payload_hash>-1009448680</payload_hash>
+        <record_name>Navy Blue</record_name>
+        <reverted_from/>
+        <source>8a7be4ad53000310def451a0a0490e3c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-20 11:03:39</sys_created_on>
+        <sys_id>ecfba76653944b10def451a0a0490eb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19daa8f6e590000001</sys_recorded_at>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-20 11:03:39</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>acfba76604944b109aa616584d46dbb1</update_guid>
+        <update_guid_history>acfba76604944b109aa616584d46dbb1:-1009448680</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Navy Blue">1bb314b2531c4b10def451a0a0490edc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gauri.phapale</sys_created_by>
+        <sys_created_on>2026-04-20 13:57:31</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>8807a254cc6b4efbbb4f8b49611bc7b1</sys_id>
+        <sys_metadata>3adb636653944b10def451a0a0490ee6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Navy Blue</sys_name>
+        <sys_package display_value="ReturnFlow" source="x_1974680_return_0">ce7be4ad53000310def451a0a0490e0d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ReturnFlow">ce7be4ad53000310def451a0a0490e0d</sys_scope>
+        <sys_scope_delete display_value="">a9abfa1244bf4238bc9bb1d14e0d0d10</sys_scope_delete>
+        <sys_update_name>question_choice_3adb636653944b10def451a0a0490ee6</sys_update_name>
+        <sys_update_version display_value="question_choice_3adb636653944b10def451a0a0490ee6">ecfba76653944b10def451a0a0490eb2</sys_update_version>
+        <sys_updated_by>gauri.phapale</sys_updated_by>
+        <sys_updated_on>2026-04-20 13:57:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
