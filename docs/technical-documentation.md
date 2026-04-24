@@ -14,7 +14,7 @@
 
 ## Table Structure
 
-### Order Table (x_xxx_order)
+### Order Item Table (x_1974680_return_0_order_item)
 Extends: task
 
 | Field Label  | Field Name   | Type      | Notes                                    |
@@ -33,7 +33,7 @@ Extends: task
 
 ---
 
-### Order Return Table (x_xxx_order_return)
+### Order Return Table (x_1974680_return_0_order_return)
 Extends: task
 
 | Field Label          | Field Name           | Type       | Notes                               |
@@ -52,7 +52,7 @@ Extends: task
 
 ---
 
-### Return Task Table (x_xxx_return_task)
+### Return Task Table (x_1974680_return_0_returnflow_task)
 Extends: task
 
 | Field Label          | Field Name           | Type      | Notes                                |
