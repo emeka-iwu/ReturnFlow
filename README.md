@@ -9,7 +9,7 @@
 ## The Problem
 
 Retail returns are a $890 billion global problem. Most organisations
-still handle them manually — through call centres, bots, and
+still handle them manually through call centres, bots, and
 overwhelmed frontline staff. Customers wait. Staff are overwhelmed.
 Requests get lost.
 
