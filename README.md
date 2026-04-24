@@ -25,7 +25,7 @@ Requests get lost.
 
 ReturnFlow is a self-service ServiceNow application where customers
 submit return requests in minutes, get instant eligibility validation,
-and receive real-time updates at every stage — without ever reaching
+and receive real-time updates at every stage without ever reaching
 an agent.
 
 ---
