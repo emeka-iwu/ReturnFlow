@@ -45,22 +45,24 @@ flowchart TD
     G --> H([✉ Email: Drop Off + Ref No.])
     H --> I([Warehouse Task — Inspect Item])
     I --> J{Decision?}
-    J -- REJECTED --> K([✉ Email: Received — Rejected])
-    K --> L([Closed Rejected])
-    J -- APPROVED --> M([✉ Email: Received — Approved])
-    M --> N([Return Approved])
-    N --> O([Finance Task — Process Refund])
-    O --> P([Refund Processed])
-    P --> Q([✉ Email: Refund in 7 Business Days])
-    Q --> R([✉ Scheduled Email: Check / Contact CS])
-    R --> S([Closed Approved])
-    S --> T([END])
+    J -- REJECTED --> K([Look Up Task — Get Rejection Reason])
+    K --> L([Update: Return Rejected])
+    L --> M([✉ Email: Rejected — Reason Included])
+    M --> N([Wait 7 Days])
+    N --> O([Closed Rejected])
+    J -- APPROVED --> P([✉ Email: Return Approved])
+    P --> Q([Update: Return Approved])
+    Q --> R([Finance Task — Process Refund])
+    R --> S([Update: Refund Processed])
+    S --> T([Wait 7 Days])
+    T --> U([Closed Approved])
+    U --> V([END])
 
     style A fill:#1e293b,stroke:#334155,color:#94a3b8
-    style T fill:#1e293b,stroke:#334155,color:#94a3b8
+    style V fill:#1e293b,stroke:#334155,color:#94a3b8
     style C fill:#1c0f0f,stroke:#ef4444,color:#fca5a5
     style E fill:#1c0f0f,stroke:#ef4444,color:#fca5a5
-    style L fill:#1c0f0f,stroke:#ef4444,color:#fca5a5
+    style O fill:#1c0f0f,stroke:#ef4444,color:#fca5a5
     style B fill:#081828,stroke:#3b82f6,color:#93c5fd
     style D fill:#081828,stroke:#3b82f6,color:#93c5fd
     style J fill:#131e2e,stroke:#334155,color:#94a3b8
@@ -68,14 +70,16 @@ flowchart TD
     style G fill:#0e1f3a,stroke:#3b82f6,color:#93c5fd
     style H fill:#281d0a,stroke:#f59e0b,color:#fcd34d
     style I fill:#0d2018,stroke:#22c55e,color:#86efac
-    style K fill:#281d0a,stroke:#f59e0b,color:#fcd34d
+    style K fill:#0e1f3a,stroke:#3b82f6,color:#93c5fd
+    style L fill:#1c0f0f,stroke:#ef4444,color:#fca5a5
     style M fill:#281d0a,stroke:#f59e0b,color:#fcd34d
-    style N fill:#0d2018,stroke:#22c55e,color:#86efac
-    style O fill:#1c1030,stroke:#a855f7,color:#d8b4fe
-    style P fill:#1c1030,stroke:#a855f7,color:#d8b4fe
-    style Q fill:#281d0a,stroke:#f59e0b,color:#fcd34d
-    style R fill:#141a28,stroke:#64748b,color:#94a3b8
-    style S fill:#0d2018,stroke:#22c55e,color:#86efac
+    style N fill:#141a28,stroke:#64748b,color:#94a3b8
+    style P fill:#281d0a,stroke:#f59e0b,color:#fcd34d
+    style Q fill:#0d2018,stroke:#22c55e,color:#86efac
+    style R fill:#1c1030,stroke:#a855f7,color:#d8b4fe
+    style S fill:#1c1030,stroke:#a855f7,color:#d8b4fe
+    style T fill:#141a28,stroke:#64748b,color:#94a3b8
+    style U fill:#0d2018,stroke:#22c55e,color:#86efac
 ```
 
 ---
