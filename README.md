@@ -34,6 +34,50 @@ an agent.
 
 Submit Request → Instant Validation → Drop-off Email → Warehouse Inspection → Refund Processed → Closed
 
+```mermaid
+flowchart TD
+    A([START]) --> B{Order Exists?}
+    B -- NO --> C([Order Not Found])
+    B -- YES --> D{Within 14 Days?}
+    D -- NO --> E([Outside Return Window])
+    D -- YES --> F([Create Return Record])
+    F --> G([Return Submitted])
+    G --> H([✉ Email: Drop Off + Ref No.])
+    H --> I([Warehouse Task — Inspect Item])
+    I --> J{Decision?}
+    J -- REJECTED --> K([✉ Email: Received — Rejected])
+    K --> L([Closed Rejected])
+    J -- APPROVED --> M([✉ Email: Received — Approved])
+    M --> N([Return Approved])
+    N --> O([Finance Task — Process Refund])
+    O --> P([Refund Processed])
+    P --> Q([✉ Email: Refund in 7 Business Days])
+    Q --> R([✉ Scheduled Email: Check / Contact CS])
+    R --> S([Closed Approved])
+    S --> T([END])
+
+    style A fill:#1e293b,stroke:#334155,color:#94a3b8
+    style T fill:#1e293b,stroke:#334155,color:#94a3b8
+    style C fill:#1c0f0f,stroke:#ef4444,color:#fca5a5
+    style E fill:#1c0f0f,stroke:#ef4444,color:#fca5a5
+    style L fill:#1c0f0f,stroke:#ef4444,color:#fca5a5
+    style B fill:#081828,stroke:#3b82f6,color:#93c5fd
+    style D fill:#081828,stroke:#3b82f6,color:#93c5fd
+    style J fill:#131e2e,stroke:#334155,color:#94a3b8
+    style F fill:#0e1f3a,stroke:#3b82f6,color:#93c5fd
+    style G fill:#0e1f3a,stroke:#3b82f6,color:#93c5fd
+    style H fill:#281d0a,stroke:#f59e0b,color:#fcd34d
+    style I fill:#0d2018,stroke:#22c55e,color:#86efac
+    style K fill:#281d0a,stroke:#f59e0b,color:#fcd34d
+    style M fill:#281d0a,stroke:#f59e0b,color:#fcd34d
+    style N fill:#0d2018,stroke:#22c55e,color:#86efac
+    style O fill:#1c1030,stroke:#a855f7,color:#d8b4fe
+    style P fill:#1c1030,stroke:#a855f7,color:#d8b4fe
+    style Q fill:#281d0a,stroke:#f59e0b,color:#fcd34d
+    style R fill:#141a28,stroke:#64748b,color:#94a3b8
+    style S fill:#0d2018,stroke:#22c55e,color:#86efac
+```
+
 ---
 
 ## Platform Features Used
