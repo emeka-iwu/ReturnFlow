@@ -97,7 +97,7 @@ assignment group and task outcome values.
 
 ## Business Rules
 
-### 1. Order Return Checks (Before Insert — Order Return table)
+### 1. Order Return Checks (Before Insert into Order Return table)
 Validates before a return record is created. Checks:
 - Order number, email, and last name all match a single 
   Order record (last name checked against last word of 
@@ -108,14 +108,14 @@ If any check fails the submission is blocked with an
 error message. Message is deliberately vague to prevent 
 bad actors from identifying which field failed.
 
-### 2. Auto Populate Order Date (After Insert — Order table)
+### 2. Auto Populate Order Date (After Insert into Order table)
 Copies sys_created_on into the order_date field after a 
 new Order record is created. This field is used instead 
 of sys_created_on for the 14 day validation check because 
 ServiceNow does not allow sys_created_on to be manually 
 edited, which is needed for testing the return window.
 
-### 3. Auto Populate Requested For (After Insert — Order Return table)
+### 3. Auto Populate Requested For (After Insert into Order Return table)
 Queries the Order table using the submitted order number 
 and copies the requested_for value across to the 
 Order Return record automatically.
@@ -178,13 +178,13 @@ flow at the following points:
 
 | Event                        | Recipient              |
 |------------------------------|------------------------|
-| Return Submitted             | Requester — drop off   |
+| Return Submitted             | Requester: drop off   |
 |                              | instructions and ref   |
 | Warehouse task created       | Warehouse fulfiller    |
-| Warehouse decision made      | Requester — approved   |
+| Warehouse decision made      | Requester: approved   |
 |                              | or rejected with reason|
 | Finance task created         | Finance fulfiller      |
-| Refund processed             | Requester — refund     |
+| Refund processed             | Requester: refund     |
 |                              | confirmation           |
 
 ---
@@ -203,7 +203,7 @@ flow at the following points:
 
 ## Dashboard
 A manager-facing dashboard containing:
-- Line chart — returns by time period
+- Line chart showing returns by time period
 - Reports on state of returns, reasons for return, category of items being returned.
 - List of all open returns (Returns that aren't closed)
 - All data updates automatically as records are processed
