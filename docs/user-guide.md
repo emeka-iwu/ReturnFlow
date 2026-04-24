@@ -11,7 +11,7 @@
    - Last Name
    - Email Address
    - Reason for Return
-4. If your reason is Other — provide details in the 
+4. If your reason is Other, provide details in the 
    Additional Comments field that appears
 5. Click Submit
 
@@ -23,9 +23,9 @@
 - Drop your item off at the specified collection point
 - Once the item has been inspected you will receive an 
   email with the outcome
-- If approved — your refund will be processed and you 
+- If approved, your refund will be processed and you 
   will be notified
-- If rejected — you will receive an email explaining 
+- If rejected, you will receive an email explaining 
   the reason for rejection
 
 ### Return Window
@@ -50,9 +50,9 @@ step guide on how to return an item.
 4. Physically inspect the returned item
 5. Set the Assigned To field to yourself
 6. Update the Task Outcome field:
-   - Warehouse Approved — item meets return criteria
-   - Warehouse Rejected — item does not meet criteria
-7. If selecting Warehouse Rejected — enter the reason 
+   - Warehouse Approved: item meets return criteria
+   - Warehouse Rejected: item does not meet criteria
+7. If selecting Warehouse Rejected, enter the reason 
    in the Reason for Rejection field. This will be 
    automatically included in the email sent to the 
    customer
