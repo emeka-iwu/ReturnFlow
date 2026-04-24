@@ -143,14 +143,14 @@ Order Return Created where State is Return Submitted
 | 10   | Create ReturnFlow Task          | Finance task created and assigned                     |
 | 11   | Wait For                        | Waits for finance task outcome = Finance Approved     |
 | 12   | Update Order Return Record      | State set to Refund Processed                         |
-| 13   | Wait                            | 30 second wait before closing record                  |
+| 13   | Wait                            | 7 days wait before closing record                  |
 | 14   | Update Order Return Record      | State set to Closed Approved                          |
 | 15   | End Flow                        | Approved path complete                                |
 | 16   | Else                            | If warehouse rejects the return                       |
 | 17   | Look Up ReturnFlow Task Record  | Retrieves warehouse task to get rejection reason      |
 | 18   | Update Order Return Record      | State set to Return Rejected                          |
 | 19   | Send Email                      | Informs requester of rejection including reason       |
-| 20   | Wait                            | 30 second wait before closing record                  |
+| 20   | Wait                            | 7 days wait before closing record                  |
 | 21   | Update Order Return Record      | State set to Closed Rejected                          |
 | 22   | End Flow                        | Rejected path complete                                |
 
