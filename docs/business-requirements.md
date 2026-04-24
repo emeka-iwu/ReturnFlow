@@ -10,7 +10,7 @@ speak to a bot, or wait in a queue to return an item.
 
 ## Business Problem
 Retail returns are a $890 billion global problem. Most organisations 
-still handle them manually — through call centres, bots, and 
+still handle them manually through call centres, bots, and 
 overwhelmed frontline staff. Customers wait. Requests get lost. 
 Loyalty is damaged at the exact moment it matters most.
 
