@@ -1,4 +1,4 @@
-# ReturnFlow — Order Return Application
+# ReturnFlow — Order Return Application (MVP)
 
 > A ServiceNow scoped application that automates the end-to-end
 > order return process for retail customers. Built as a capstone
