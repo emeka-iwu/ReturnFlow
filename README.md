@@ -124,8 +124,8 @@ flowchart TD
     │   ├── business-rule-order-date.js
     │   └── business-rule-requested-for.js
     │
-    ├── diagrams/
-    │   └── order-return-flow.html
+    ├
+    │
     │
     └── screenshots/
         ├── portal-homepage.png
@@ -162,5 +162,18 @@ flowchart TD
 > Screenshots of the live application are in the `/screenshots` folder.
 
 ---
+## Importing into ServiceNow
 
+To import this application into a ServiceNow PDI:
+
+1. Fork or clone this repository
+2. In ServiceNow Studio, go to **Source Control → Import from Source Control**
+3. Point to this repository using the **servicenow-config/** folder — 
+   not the root of the repository
+4. Use branch: **main**
+
+> Note: Only the `servicenow-config/` folder contains the Studio 
+> app export. Do not link to the parent folder.
+
+---
 *Built part-time. Shipped on time. Designed to give customers their wait time back.*
