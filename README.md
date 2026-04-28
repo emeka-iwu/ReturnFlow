@@ -124,7 +124,7 @@ flowchart TD
     │   ├── business-rule-order-date.js
     │   └── business-rule-requested-for.js
     │
-    ├
+    ├── update-set/
     │
     │
     └── screenshots/
@@ -173,6 +173,8 @@ To import this application into a ServiceNow PDI:
 
 > Note: Only the `servicenow-config/` folder contains the Studio 
 > app export. Do not link to the parent folder.
+
+Importing can also be done via importing the Update-Set found [here](update-set)
 
 ---
 *Built part-time. Shipped on time. Designed to give customers their wait time back.*
