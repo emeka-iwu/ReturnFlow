@@ -167,9 +167,8 @@ flowchart TD
 To import this application into a ServiceNow PDI:
 
 1. Fork or clone this repository
-2. In ServiceNow Studio, go to **Source Control → Import from Source Control**
-3. Point to this repository using the **servicenow-config/** folder — 
-   not the root of the repository
+2. In ServiceNow Studio, go to **Source Control, then Import from Source Control**
+3. Point to this repository using the **servicenow-config/** folder (copy [here](servicenow-config)), not the root of the repository
 4. Use branch: **main**
 
 > Note: Only the `servicenow-config/` folder contains the Studio 
