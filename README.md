@@ -159,7 +159,7 @@ flowchart TD
 
 ## Screenshots
 
-> Screenshots of the live application are in the `/screenshots` folder.
+> Screenshots of the live application are in the [screenshots](screenshots) folder.
 
 ---
 ## Importing into ServiceNow
